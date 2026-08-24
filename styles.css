@@ -13,16 +13,19 @@ p {
 
 .titleOne {
     color: aquamarine;
-    text-align: left;
 }
 
 .titleTwo {
     color:chartreuse;
-    text-align: right;
 }
 
 .snappy{
-    width: 265x;
+    width: 265;
+}
+
+.title{
+    font-size: 50px;
+    text-align: center;
 }
 
 #home{
