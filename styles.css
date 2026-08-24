@@ -2,14 +2,31 @@ html {
     background-color:#575757;
 }
 
+body {
+    margin: 0;
+}
+
 p {
     color: blueviolet;
+    text-align: center;
 }
 
 .titleOne {
     color: aquamarine;
+    text-align: left;
 }
 
 .titleTwo {
     color:chartreuse;
+    text-align: right;
+}
+
+.snappy{
+    width: 265x;
+}
+
+#home{
+    background-color: antiquewhite;
+    height: auto;
+    padding: 10px;
 }
