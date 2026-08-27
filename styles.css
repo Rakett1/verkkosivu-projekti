@@ -6,22 +6,33 @@ body {
     margin: 0;
 }
 
+@font-face {
+  font-family: customFont3;
+  src: url(Anak\ Pintar.otf);
+}
 p {
     color: black;
     text-align: center;
+    font-size: 20px;
 }
-
 .titleOne {
+    font-family: customFont3;
     font-size: 30px;
 }
 .titleTwo {
+    background-color: lightgray;
     font-size: 25px;
+    text-align: center;
+    padding: 10px;
 }
 .description{
-    
+    font-size: 20px;
+    background-color: lightgray;
+    padding: 10px;
 }
 
 .title{
+    font-family: customFont3;
     font-size: 50px;
     text-align: center;
     padding: 15px;
@@ -44,18 +55,17 @@ p {
     padding: 10px;
     background-color: rgb(190, 182, 183);
 }
-.aboutMe{
+#aboutMe{
     display: flex;
     align-content: center;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     background-color: rgba(169, 169, 169, 0.9);
+    padding-top: 45px;
+    padding-bottom: 25px;
 }
-.txtAM{
-    font-size: 20px;
-}
-.works{
+#works{
     background-color: rgba(121, 120, 120, 0.9);
     display: flex;
     flex-direction: column;
@@ -71,19 +81,49 @@ p {
     justify-content: center;
     gap: 10px;
 }
+.mysteryMansion{
+    background-color: #000000;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+.virusAttack{
+    background-color: violet;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
+.blob{
+    background-color: orangered;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+}
 .pictures{
     width: 500px;
+    background-color: lightgray;
+    padding: 5px;
 }
-.getInTouch{
+img:active {
+    transform: scale(3);
+}
+img {
+    transition: transform .2s;
+}
+#getInTouch{
     background-color: rgba(169, 169, 169, 0.9);
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
+    padding-right: 70px;
+    padding-left: 70px;
+    padding-bottom: 70px;
 }
 
 #home{
     background-color: rgb(109, 109, 109);
     height: auto;
     padding: 10px;
+    padding-top: 50px;
 }
