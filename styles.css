@@ -86,18 +86,21 @@ p {
     display: grid;
     gap: 10px;
     padding: 20px;
+    justify-items: start;
 }
 .virusAttack{
     background-color: violet;
     display: grid;
     gap: 10px;
     padding: 20px;
+    justify-items: start;
 }
 .blob{
     background-color: orangered;
     display: grid;
     gap: 10px;
     padding: 20px;
+    justify-items: start;
 }
 .pictures{
     width: 500px;
