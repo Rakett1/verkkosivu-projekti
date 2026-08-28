@@ -1,5 +1,6 @@
 html {
     background-color:#575757;
+    user-select: none;
 }
 
 body {
@@ -15,9 +16,28 @@ p {
     text-align: center;
     font-size: 20px;
 }
+div{
+    position: relative;
+}
+.task{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.redBox{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    right: 20px;
+    top: 20px;
+}
 .titleOne {
     font-family: customFont3;
     font-size: 30px;
+    background-color: lightgray;
+    padding: 10px;
 }
 .titleTwo {
     background-color: lightgray;
@@ -30,6 +50,9 @@ p {
     background-color: lightgray;
     padding: 10px;
 }
+.canSelect{
+    user-select: text;
+}
 
 .title{
     font-family: customFont3;
@@ -38,6 +61,7 @@ p {
     padding: 15px;
 }
 .navBar{
+    z-index: 10;
     padding: 10px;
     position: fixed;
     height: auto;
@@ -54,6 +78,7 @@ p {
     font-size: 20px;
     padding: 10px;
     background-color: rgb(190, 182, 183);
+    cursor: pointer;
 }
 #aboutMe{
     display: flex;
@@ -72,6 +97,7 @@ p {
     align-content: center;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10px;
 }
 .myWorks{
     background-color: rgba(121, 120, 120, 0.25);
@@ -116,12 +142,13 @@ img {
 #getInTouch{
     background-color: rgba(169, 169, 169, 0.9);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: space-between;
     padding-right: 70px;
     padding-left: 70px;
     padding-bottom: 70px;
+    align-items: flex-start;
 }
 
 #home{
