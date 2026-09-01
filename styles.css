@@ -71,11 +71,18 @@ div{
     align-content: center;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     background-color: rgba(169, 169, 169, 0.9);
     padding-top: 45px;
     padding-bottom: 25px;
     padding-left: 70px;
+}
+.am{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
 }
 .amTxt{
     padding: 10px;
@@ -122,7 +129,8 @@ div{
     justify-items: start;
 }
 .pictures{
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     background-color: lightgray;
     padding: 5px;
 }
